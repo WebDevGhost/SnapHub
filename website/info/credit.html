@@ -22,9 +22,100 @@
   <link rel="stylesheet" href="https://webdevghost.github.io/SnapHub/assets/css/scrollbar.css">
 
   <link rel="manifest" href="https://webdevghost.github.io/SnapHub/assets/manifest.json">
+
+  <style>
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    body {
+      background: #141414;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #1e1e1e;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 2px solid white;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a:hover {
+      color: #f0f0f0;
+    }
+
+    nav .icon {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+      border-radius: 50%;
+    }
+
+    nav .icon img {
+      width: 20px;
+      height: 20px;
+    }
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+  </style>
 </head>
 
 <body>
+
+  <nav>
+    <a href="https://webdevghost.github.io/SnapHub/website/home.html" class="icon"><img src="https://webdevghost.github.io/SnapHub/assets/icons/home.png" alt="Home"></a>
+    <a href="https://webdevghost.github.io/SnapHub/website/info/about.html" class="icon"><img src="https://webdevghost.github.io/SnapHub/assets/icons/info.png" alt="Info"></a>
+    <a href="https://webdevghost.github.io/SnapHub/website/search.html" class="icon"><img src="https://webdevghost.github.io/SnapHub/assets/icons/search.png" alt="Search"></a>
+    <a href="https://webdevghost.github.io/SnapHub/website/app.html" class="icon"><img src="https://webdevghost.github.io/SnapHub/assets/icons/app.png" alt="App"></a>
+    <a href="https://webdevghost.github.io/SnapHub/website/categories.html" class="icon"><img src="https://webdevghost.github.io/SnapHub/assets/icons/download.png" alt="Download"></a>
+  </nav>
+
+  <div class="content">
+    <h1>Incomplete</h1>
+    <p>This page isn't finished yet, please come back soon!</p>
+  </div>
 
   <script src="https://webdevghost.github.io/SnapHub/assets/js/scripting.js"></script>
   <script src="https://webdevghost.github.io/SnapHub/assets/js/debugging.js"></script>
