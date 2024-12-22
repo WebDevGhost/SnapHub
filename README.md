@@ -15,7 +15,8 @@ SnapHub is a custom website that features various SnapChat content such as:
   - Scripts
   - Configs
 
-Please note that this repo is aimed towards Android User's. IOS based relations may possibly be added in the future.
+Please note that this repo is aimed towards Android User's. IOS based relations may possibly be added in the future.  
+All files are being stored on Google Drive.  
 
 <br>  
 
