@@ -6,16 +6,18 @@ body {
   justify-content: center;
   align-items: center;
   background: radial-gradient(circle at bottom left, #1a051d 20%, #0d1b2a 70%);
-  background-size: cover;
+  background-size: 400% 400%;
   overflow: hidden;
-  animation: background-pulse 10s infinite ease-in-out;
+  animation: background-glow 10s infinite ease-in-out;
 }
 
-@keyframes background-pulse {
+@keyframes background-glow {
   0%, 100% {
     background: radial-gradient(circle at bottom left, #1a051d 20%, #0d1b2a 70%);
+    box-shadow: 0 0 60px 30px rgba(0, 0, 0, 0.5);
   }
   50% {
-    background: radial-gradient(circle at bottom left, #1a051d 35%, #0d1b2a 85%);
+    background: radial-gradient(circle at bottom left, #1a051d 25%, #0d1b2a 75%);
+    box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.3);
   }
 }
