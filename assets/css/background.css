@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at bottom left, #1a051d 20%, #0d1b2a 70%);
+  background-size: cover;
+  overflow: hidden;
+  animation: background-pulse 10s infinite ease-in-out;
+}
+
+@keyframes background-pulse {
+  0%, 100% {
+    background: radial-gradient(circle at bottom left, #1a051d 20%, #0d1b2a 70%);
+  }
+  50% {
+    background: radial-gradient(circle at bottom left, #1a051d 35%, #0d1b2a 85%);
+  }
+}

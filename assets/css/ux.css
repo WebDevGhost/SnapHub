@@ -1,0 +1,73 @@
+* {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.allow-select {
+  user-select: text;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  border: none;
+  background: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: none;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover,
+input:hover,
+textarea:hover,
+select:hover {
+  cursor: pointer;
+}
+
+img,
+video,
+audio,
+embed,
+object {
+  -webkit-user-drag: none;
+  user-select: none;
+  pointer-events: auto;
+}
+
+button:focus,
+a:focus,
+input:focus,
+textarea:focus,
+select:focus,
+img:focus,
+video:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+:focus-visible {
+  outline: 2px solid transparent;
+}
+
+select:focus {
+  border-color: transparent;
+}
+
+@media (pointer: coarse) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
