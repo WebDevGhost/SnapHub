@@ -40,4 +40,4 @@ For more information on SnapEnhance, please visit the official [GitHub]([https:/
 <br>  
 
 ### SE Extended
-For more information on SE Extended, please visit the official [GitHub]([https://github.com/rodit/SnapMod](https://github.com/bocajthomas/SE-Extended) repo.
+For more information on SE Extended, please visit the official [GitHub](https://github.com/bocajthomas/SE-Extended) repo.
