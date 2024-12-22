@@ -6,11 +6,10 @@ SnapHub is a custom website that features various SnapChat content such as:
   - Files
 - SnapEnhance content
   - Files
-  - Themes
-  - Scripts
-  - Configs
 - SE Extended content
   - Files
+
+You can download additional content for SnapEnhance & SE Extended
   - Themes
   - Scripts
   - Configs
