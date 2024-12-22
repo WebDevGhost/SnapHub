@@ -35,7 +35,7 @@ For more information on FM SnapChat, please visit the official [website](https:/
 <br>  
 
 ### SnapEnhance
-For more information on SnapEnhance, please visit the official [GitHub]([https://github.com/rodit/SnapMod](https://github.com/rhunk/SnapEnhance)) repo.
+For more information on SnapEnhance, please visit the official [GitHub](https://github.com/rhunk/SnapEnhance) repo.
 
 <br>  
 
